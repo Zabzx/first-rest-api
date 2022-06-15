@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers
+
+
+###
+
+
+GET http://localhost:3000/subscribers/62aa08335a7e8cb5fcbcfa97
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Zabz",
+    "subscribedToChannel": "Web Dev Simplified"
+}
+
+
+###
+DELETE http://localhost:3000/subscribers/62aa085d5a7e8cb5fcbcfa9b
+
+
+###
+PATCH http://localhost:3000/subscribers/62aa129841c12939bcde53a5
+Content-Type: application/json
+
+{
+    "name": "lolololol"
+}
