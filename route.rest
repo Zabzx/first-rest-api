@@ -4,7 +4,7 @@ GET http://localhost:3000/subscribers
 ###
 
 
-GET http://localhost:3000/subscribers/62aa08335a7e8cb5fcbcfa97
+GET http://localhost:3000/subscribers/62aa0fc83b18183fc4c70f42
 
 ###
 
@@ -12,8 +12,8 @@ POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "Zabz",
-    "subscribedToChannel": "Web Dev Simplified"
+    "name": "bee",
+    "subscribedToChannel": "bts"
 }
 
 
@@ -26,5 +26,5 @@ PATCH http://localhost:3000/subscribers/62aa129841c12939bcde53a5
 Content-Type: application/json
 
 {
-    "name": "lolololol"
+    "name": "random user"
 }
